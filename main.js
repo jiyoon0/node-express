@@ -7,10 +7,11 @@ const template = require('./template.js');
 const mysql = require('mysql');
 
 const conn = mysql.createConnection({
-  host: 'localhost',
+  host: 'svc.sel5.cloudtype.app',
   user: 'root',
   password: 'mysql',
-  database: 'web'
+  database: 'web',
+  port: 30604
 });
 conn.connect();
 
