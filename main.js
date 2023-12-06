@@ -8,7 +8,7 @@ const mysql = require('mysql');
 
 const conn = mysql.createConnection({
   host: 'svc.sel5.cloudtype.app',
-  user: 'mariadb',
+  user: 'root',
   password: '1234',
   database: 'web',
   port: 31028
