@@ -111,12 +111,11 @@ header nav ul li button:active{
     justify-content: center;
     align-items: center;
     color: white;
-    font-family: "gmarket-b";
 }
 #main .left .title h1{
     margin: 9rem 4rem 8rem;
     font-size: 3rem;
-    font-weight: 800;
+    font-family: "gmarket-b";
 }
 #main .left .title a{
     padding: 8px 30px;
